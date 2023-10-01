@@ -10,8 +10,7 @@ package q1_project;
  * @author PC
  */
 import java.util.*;
-import java.io.*;
-import java.lang.
+import java.io.*
 public class Q1_project {
 
     /**
