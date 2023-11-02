@@ -1,16 +1,7 @@
 
 import java.util.List;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author PC
- */
 import java.util.List;
 import java.util.Comparator;
 import java.util.Collections;
@@ -29,7 +20,7 @@ public class MyCar implements ICar {
     @Override
     public void f2(List<Car> t) {
        if (t.size() < 2) {
-            return; // Nothing to swap if the list has 0 or 1 elements.
+            return; 
         }
 
         int maxRateIndex = 0;
